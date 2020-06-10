@@ -28,7 +28,7 @@ function initialiseHexImElements() {
 	hex_coords = generateHexagonCoords(hex_width, hex_height, hex_formation);
 
 	for (var i = 0; i < hex_formation.length(); i++) {
-		for (var j=0; j < hex_formation[i]) {
+		for (var j=0; j < hex_formation[i]; j++) {
 			x = hex_coords[i][j];
 			y = hex_coords[i][j];
 			img = document.createElement("img");
